@@ -1,0 +1,25 @@
+<div class="table-container">
+  <h2>Lista de usuarios Escuela</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Role</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Agrega la directiva 'paginate' aquí -->
+      <tr *ngFor="let user of users | paginate: { itemsPerPage: 10, currentPage: page }">
+        <td>{{ user.id }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.role }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Controles de paginación -->
+  <pagination-controls (pageChange)="page = $event"></pagination-controls>
+</div>

@@ -1,0 +1,26 @@
+.table-container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  color: #7b3eaa;
+  font-size: 1.5em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #b48fc0;
+  color: white;
+}
