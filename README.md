@@ -1,5 +1,5 @@
-Practica: Consumo de APIS
-Alumno: Perez Barrios Diego
+# Practica: Consumo de APIS
+# Alumno: Perez Barrios Diego
 
 Primero cree un nuevo proyecto.
 ng new consumo-api-PBDiego
