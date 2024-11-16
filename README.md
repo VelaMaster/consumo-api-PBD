@@ -1,3 +1,6 @@
+Practica: Consumo de APIS
+Alumno: Perez Barrios Diego
+
 Primero cree un nuevo proyecto.
 ng new consumo-api-PBDiego
 ![image](https://github.com/user-attachments/assets/7004d113-ec8c-4402-9ed0-98d8aeb35c04)
